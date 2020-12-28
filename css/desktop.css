@@ -160,6 +160,7 @@
 .input-textarea {
   display: inline-block;
   box-sizing: border-box;
+  font-family: "Open Sans Regular";
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 15px;
@@ -213,6 +214,7 @@
 /* Block - trends */
 
 .trends {
+  min-width: 1200px;
   display: flex;
   flex-wrap: wrap;
   width: 100vw;
@@ -332,6 +334,7 @@
 }
 
 .banner {
+  min-width: 1200px;
   background-color: black;
   background-image: url(../images/img/banner-bg.jpg);
   background-repeat: no-repeat;
@@ -365,8 +368,8 @@
   align-items: center;
 }
 
-.logo-img {
-  width: 180px;
+.banner-logo {
+  width: 15.38%;
 }
 
 .menu-list {
@@ -397,14 +400,14 @@
 }
 
 .banner-intro {
-  width: 680px;
-  padding-top: 105px;
-  padding-bottom: 125px;
+  width: 58.12%;
+  padding-top: 8.97%;
+  padding-bottom: 10.68%;
   margin-left: auto;
   margin-right: auto;
+  font-size: 2.813rem;
   text-transform: uppercase;
-  font-size: 45px;
-  line-height: 75px;
+  line-height: 4.69rem;
   color: #ffffff;
   font-weight: 700;
   font-family: "Open Sans Bold";
@@ -418,7 +421,7 @@
 }
 
 .post-list {
-  width: 780px;
+  width: 66.667%;
   margin-top: 65px;
 }
 
@@ -516,7 +519,7 @@
 }
 
 .side-bar {
-  width: 270px;
+  width: 23.077%;
   margin-top: 65px;
 }
 
@@ -1043,7 +1046,7 @@
   position: absolute;
   width: 5px;
   height: 1px;
-  background-color:  black;
+  background-color: black;
   left: calc(50% - 2.5px);
   top: 60%;
 }
@@ -1057,7 +1060,7 @@
   position: absolute;
   width: 7px;
   height: 2px;
-  background-color:  black;
+  background-color: black;
   left: calc(50% - 3.5px);
   top: 65%;
 }

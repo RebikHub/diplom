@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/desktop.css">
+    <link media="(min-width: 1201px)" rel="stylesheet" href="css/desktop.css">
+    <link media="(min-width: 641px) and (max-width: 1200px)" rel="stylesheet" href="css/tablet.css">
+    <link media="(max-width: 640px)" rel="stylesheet" href="css/mobile.css">
     <title>Document</title>
 </head>
 
@@ -43,8 +45,7 @@
                 <div class="popup-input">
                     <label class="text">Расскажите, какой контент вы хотели бы видеть
                         на нашем сайте?</label>
-                    <textarea class="input-textarea" cols="30" rows="10"
-                        placeholder="Может, больше рецептов?"></textarea>
+                    <textarea class="input-textarea" cols="30" rows="10" placeholder="Может, больше рецептов?"></textarea>
                 </div>
                 <button class="popup-button">отправить</button>
             </form>
@@ -57,9 +58,13 @@
             <div class="banner-menu-logo">
                 <div class="banner-logo">
                     <a href="#0">
-                        <img src="./images/svg/noemi-logo.svg"
-                            class="logo-img" alt="noemi">
+                        <img src="./images/svg/noemi-logo.svg" class="logo-img" alt="noemi">
                     </a>
+                </div>
+                <div class="banner-menu-burger">
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
                 </div>
                 <nav class="banner-menu">
                     <ul class="menu-list">
@@ -148,8 +153,7 @@
         <main class="post-list">
             <article class="widgets">
                 <div class="widget-img">
-                    <img src="./images/img/last-post1.jpg"
-                        alt="Рассвет на побережье">
+                    <img src="./images/img/last-post1.jpg" alt="Рассвет на побережье">
                 </div>
                 <section class="widget">
                     <ul class="category-tags">
@@ -163,14 +167,12 @@
                         <time class="widget-date" datetime="2019-06-10">10 июня 2019</time>
                         <span class="widget-author">Неизвестный автор</span>
                     </div>
-                    <p class="widget-text">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены
-                        фонтаны города… Музеи еще закрыты. Что посмотреть?</p>
+                    <p class="widget-text">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города… Музеи еще закрыты. Что посмотреть?</p>
                 </section>
             </article>
             <article class="widgets">
                 <div class="widget-img">
-                    <img src="./images/img/last-post2.jpg"
-                        alt="Йога на берегу моря">
+                    <img src="./images/img/last-post2.jpg" alt="Йога на берегу моря">
                 </div>
                 <section class="widget">
                     <ul class="category-tags">
@@ -183,14 +185,12 @@
                         <time class="widget-date" datetime="2019-06-10">10 июня 2019</time>
                         <span class="widget-author">Неизвестный автор</span>
                     </div>
-                    <p class="widget-text">Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из
-                        того, что можно найти в шкафу.</p>
+                    <p class="widget-text">Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу.</p>
                 </section>
             </article>
             <article class="widgets">
                 <div class="widget-img">
-                    <img src="./images/img/last-post3.jpg"
-                        alt="Зрители на музыкальном фестивале">
+                    <img src="./images/img/last-post3.jpg" alt="Зрители на музыкальном фестивале">
                 </div>
                 <section class="widget">
                     <ul class="category-tags">
@@ -202,15 +202,13 @@
                         <time class="widget-date" datetime="2019-06-10">10 июня 2019</time>
                         <span class="widget-author">Неизвестный автор</span>
                     </div>
-                    <p class="widget-text">Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы
-                        разобьёте свою палатку?</p>
+                    <p class="widget-text">Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку?</p>
                     <p class="widget-text">Мы составили список лучших летних фестивалей по всему миру.</p>
                 </section>
             </article>
             <article class="widgets">
                 <div class="widget-img">
-                    <img src="./images/img/last-post4.jpg"
-                        alt="Кулинарные блюда на столе">
+                    <img src="./images/img/last-post4.jpg" alt="Кулинарные блюда на столе">
                 </div>
                 <section class="widget">
                     <ul class="category-tags">
@@ -223,14 +221,12 @@
                         <time class="widget-date" datetime="2019-06-10">10 июня 2019</time>
                         <span class="widget-author">Неизвестный автор</span>
                     </div>
-                    <p class="widget-text">Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем
-                        физику, химию и микробиологию еды.</p>
+                    <p class="widget-text">Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
                 </section>
             </article>
             <article class="widgets">
                 <div class="widget-img">
-                    <img src="./images/img/last-post5.jpg"
-                        alt="Подушка с надписью">
+                    <img src="./images/img/last-post5.jpg" alt="Подушка с надписью">
                 </div>
                 <section class="widget">
                     <ul class="category-tags">
@@ -244,8 +240,7 @@
                         <time class="widget-date" datetime="2019-06-10">10 июня 2019</time>
                         <span class="widget-author">Неизвестный автор</span>
                     </div>
-                    <p class="widget-text">Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если
-                        потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
+                    <p class="widget-text">Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
                 </section>
             </article>
         </main>
@@ -255,9 +250,7 @@
                     <h3 class="posts-title">новые посты</h3>
                 </header>
                 <article class="posts-container">
-                    <div class="posts-img"><img
-                            src="./images/img/2.jpg"
-                            alt="Рассвет на побережье">
+                    <div class="posts-img"><img src="./images/img/2.jpg" alt="Рассвет на побережье">
                     </div>
                     <div class="posts-content">
                         <time class="posts-time" datetime="2019-06-14">14 июня 2019</time>
@@ -267,9 +260,7 @@
                     </div>
                 </article>
                 <article class="posts-container">
-                    <div class="posts-img"><img
-                            src="./images/img/151.jpg"
-                            alt="Йога на берегу моря">
+                    <div class="posts-img"><img src="./images/img/151.jpg" alt="Йога на берегу моря">
                     </div>
                     <div class="posts-content">
                         <time class="posts-time" datetime="2019-06-14">14 июня 2019</time>
@@ -279,9 +270,7 @@
                     </div>
                 </article>
                 <article class="posts-container">
-                    <div class="posts-img"><img
-                            src="./images/img/45.jpg"
-                            alt="Комната с комфортным креслом">
+                    <div class="posts-img"><img src="./images/img/45.jpg" alt="Комната с комфортным креслом">
                     </div>
                     <div class="posts-content">
                         <time class="posts-time" datetime="2019-06-14">14 июня 2019</time>
@@ -291,9 +280,7 @@
                     </div>
                 </article>
                 <article class="posts-container">
-                    <div class="posts-img"><img
-                            src="./images/img/501.jpg"
-                            alt="Кулинарные блюда на столе">
+                    <div class="posts-img"><img src="./images/img/501.jpg" alt="Кулинарные блюда на столе">
                     </div>
                     <div class="posts-content">
                         <time class="posts-time" datetime="2019-06-14">14 июня 2019</time>
@@ -303,9 +290,7 @@
                     </div>
                 </article>
                 <article class="posts-container">
-                    <div class="posts-img"><img
-                            src="./images/img/7.jpg"
-                            alt="Три женские прически с длинными волосами">
+                    <div class="posts-img"><img src="./images/img/7.jpg" alt="Три женские прически с длинными волосами">
                     </div>
                     <div class="posts-content">
                         <time class="posts-time" datetime="2019-06-14">14 июня 2019</time>
@@ -314,7 +299,6 @@
                         </h4>
                     </div>
                 </article>
-
             </section>
             <form class="search" action="search">
                 <input class="search-input" type="search" placeholder="Найти..." required>
@@ -323,7 +307,7 @@
             </form>
             <form class="subscribe">
                 <label class="subscribe-title sub-title-text" for="input-email">рассылка</label>
-                    <input class="sub-input" type="email" id="input-email" name="input-email" placeholder="Ваш email-адрес" required>
+                <input class="sub-input" type="email" id="input-email" name="input-email" placeholder="Ваш email-адрес" required>
                 <button class="sub-button" type="submit">подписаться</button>
             </form>
             <section class="tags">
@@ -393,13 +377,14 @@
         </header>
         <div class="shop-content">
             <article class="shop-card">
-                <div class="card-image">
+                <picture class="card-image">
+                    <source media="(max-width: 640px)" srcset="./images/img/shop-item-mobile1.jpg">
+                    <source media="(min-width: 641px) and (max-width: 1200px)" srcset="./images/img/shop-item-tablet1.jpg">
                     <img src="./images/img/shop-item-desk1.jpg" alt="подушка с надписью">
-                </div>
+                </picture>
                 <div class="card-content">
                     <h4 class="card-title">подушки на диван</h4>
-                    <p class="card-content-text">Набор из двух подушек с модными принтами. Видео о создании <a
-                            class="card-text-link" href="">здесь</a>.</p>
+                    <p class="card-content-text">Набор из двух подушек с модными принтами. Видео о создании <a class="card-text-link" href="">здесь</a>.</p>
                     <div class="card-price">
                         <div class="prices">
                             <span class="price-old">1000 <span class="price-old-p">Р</span></span>
@@ -410,13 +395,14 @@
                 </div>
             </article>
             <article class="shop-card">
-                <div class="card-image">
+                <picture class="card-image">
+                    <source media="(max-width: 640px)" srcset="./images/img/shop-item-mobile2.jpg">
+                    <source media="(min-width: 641px) and (max-width: 1200px)" srcset="./images/img/shop-item-tablet2.jpg">
                     <img src="./images/img/shop-item-desk2.jpg" alt="кукла зайчик, стопка книг и чашка на блюдце">
-                </div>
+                </picture>
                 <div class="card-content">
                     <h4 class="card-title">Кукла «Зайчик»</h4>
-                    <p class="card-content-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a
-                            class="card-text-link" href="">весенняя серия постов</a> в блоге и несколько подкастов.</p>
+                    <p class="card-content-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a class="card-text-link" href="">весенняя серия постов</a> в блоге и несколько подкастов.</p>
                     <div class="card-price">
                         <div class="prices">
                             <span class="price-old">500 <span class="price-old-p">Р</span></span>
@@ -427,13 +413,14 @@
                 </div>
             </article>
             <article class="shop-card">
-                <div class="card-image">
+                <picture class="card-image">
+                    <source media="(max-width: 640px)" srcset="./images/img/shop-item-mobile3.jpg">
+                    <source media="(min-width: 641px) and (max-width: 1200px)" srcset="./images/img/shop-item-tablet3.jpg">
                     <img src="./images/img/shop-item-desk3.jpg" alt="шестиугольная рамка и ваза с цветами">
-                </div>
+                </picture>
                 <div class="card-content">
                     <h4 class="card-title">Шестиугольная рамка</h4>
-                    <p class="card-content-text">Необычная рамка для украшения дома из видео <a class="card-text-link"
-                            href="">«Как сделать рамку из подручных средств за 30 минут»</a></p>
+                    <p class="card-content-text">Необычная рамка для украшения дома из видео <a class="card-text-link" href="">«Как сделать рамку из подручных средств за 30 минут»</a></p>
                     <div class="card-price">
                         <div class="prices">
                             <span class="price-old">500 <span class="price-old-p">Р</span></span>
