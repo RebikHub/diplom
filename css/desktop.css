@@ -292,12 +292,12 @@
 .trends-tags {
   display: flex;
   list-style: none;
-  padding-left: 7.4%;
-  padding-top: 7.4%;
+  padding-left: 8%;
+  padding-top: 8%;
 }
 
 .trends-tags-item {
-  margin-right: 20px;
+  margin-right: 4.65%;
 }
 
 .trends-tag-link {
