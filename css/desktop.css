@@ -282,9 +282,9 @@
 
 .trends-content-block {
   position: absolute;
-  bottom: 15px;
-  left: 20px;
-  right: 20px;
+  bottom: 3.16%;
+  left: 4.22%;
+  right: 4.22%;
   background-color: rgba(0, 0, 0, 0);
   border: 3px solid #b59f5b;
 }
@@ -292,8 +292,8 @@
 .trends-tags {
   display: flex;
   list-style: none;
-  padding-left: 35px;
-  padding-top: 35px;
+  padding-left: 7.4%;
+  padding-top: 7.4%;
 }
 
 .trends-tags-item {
@@ -317,9 +317,9 @@
   font-weight: 700;
   font-family: "Open Sans Bold";
   text-transform: uppercase;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-bottom: 30px;
+  padding-left: 7.4%;
+  padding-right: 7.4%;
+  padding-bottom: 6.33%;
 }
 
 /* Block - trends */

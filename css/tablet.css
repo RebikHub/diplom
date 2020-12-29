@@ -3,9 +3,6 @@
     padding: 0;
 }
 
-
-/* Block - _hidden */
-
 @font-face {
     font-family: "Open Sans Regular";
     font-weight: 400;
@@ -19,6 +16,22 @@
     font-style: normal;
     src: url(../fonts/OpenSans-Bold.ttf);
 }
+
+@media (orientation: landscape) {
+    .trends-content {
+        width: 24.7%;
+        margin-bottom: 0.3%;
+    }
+}
+
+@media (orientation: portrait) {
+    .trends-content {
+        width: 49.7%;
+        margin-bottom: 0.3%;
+    }
+}
+
+/* Block - _hidden */
 
 ._hidden {
     position: fixed;
@@ -210,8 +223,7 @@
     background-color: inherit;
 }
 
-
-/* Block - _hidden */
+/*Header - Block*/
 
 .banner-content,
 .content {
@@ -365,8 +377,6 @@
 
 .trends-content {
     position: relative;
-    width: 49.7%;
-    margin-bottom: 0.3%;
 }
 
 .trends-image {
@@ -393,9 +403,9 @@
 
 .trends-content-block {
     position: absolute;
-    bottom: 15px;
-    left: 20px;
-    right: 20px;
+    bottom: 3.16%;
+    left: 4.22%;
+    right: 4.22%;
     background-color: rgba(0, 0, 0, 0);
     border: 3px solid #b59f5b;
 }
@@ -403,8 +413,8 @@
 .trends-tags {
     display: flex;
     list-style: none;
-    padding-left: 35px;
-    padding-top: 35px;
+    padding-left: 7.4%;
+    padding-top: 7.4%;
 }
 
 .trends-tags-item {
@@ -432,9 +442,9 @@
     font-weight: 700;
     font-family: "Open Sans Bold";
     text-transform: uppercase;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-bottom: 30px;
+    padding-left: 7.4%;
+    padding-right: 7.4%;
+    padding-bottom: 6.33%;
 }
 
 .trends-content-text:hover {

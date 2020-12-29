@@ -20,6 +20,40 @@
     src: url(../fonts/OpenSans-Bold.ttf);
 }
 
+@media (orientation: landscape) {
+    .trends-content {
+        width: 49.7%;
+        margin-bottom: 0.3%;
+    }
+    .banner-logo {
+            padding-top: 30vh;
+    }
+    .banner-intro {
+        padding-top: 10vh;
+    }
+    .banner-menu-burger {
+        height: 8vh;
+        width: 8vh;
+    }
+}
+
+@media (orientation: portrait) {
+    .trends-content {
+        width: 100%;
+        margin-bottom: 1%;
+    }
+    .banner-logo {
+        padding-top: 62.5%;
+    }
+    .banner-intro {
+        padding-top: 12.5%;
+    }
+    .banner-menu-burger {
+        height: 7%;
+        width: 7%;
+    }
+}
+
 ._hidden {
     position: fixed;
     z-index: 3;
@@ -260,7 +294,6 @@
 }
 
 .banner-logo {
-    padding-top: 62.5%;
     padding-left: 12.5%;
     height: 16.67%;
     width: 75%;
@@ -301,8 +334,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 7%;
-    width: 7%;
     padding-top: 8%;
     margin-left: auto;
 }
@@ -314,7 +345,6 @@
 }
 
 .banner-intro {
-    padding-top: 12.5%;
     margin-left: auto;
     margin-right: auto;
     text-transform: uppercase;
@@ -370,8 +400,6 @@
 
 .trends-content {
     position: relative;
-    width: 100%;
-    margin-bottom: 1%;
 }
 
 .trends-image {
@@ -399,9 +427,9 @@
 .trends-content-block {
     position: absolute;
     box-sizing: border-box;
-    bottom: 4.17%;
-    left: 4.17%;
-    right: 4.17%;
+    bottom: 3.16%;
+    left: 4.22%;
+    right: 4.22%;
     background-color: rgba(0, 0, 0, 0);
     border: 3px solid #b59f5b;
 }
@@ -409,8 +437,8 @@
 .trends-tags {
     display: flex;
     list-style: none;
-    padding-left: 35px;
-    padding-top: 35px;
+    padding-left: 7.4%;
+    padding-top: 7.4%;
 }
 
 .trends-tags-item {
@@ -438,9 +466,9 @@
     font-weight: 700;
     font-family: "Open Sans Bold";
     text-transform: uppercase;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-bottom: 30px;
+    padding-left: 7.4%;
+    padding-right: 7.4%;
+    padding-bottom: 6.33%;
 }
 
 .trends-content-text:hover {
