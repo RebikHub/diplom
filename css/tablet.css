@@ -46,6 +46,18 @@
     }
 }
 
+@media (min-width: 705px) and (max-width: 769px) {
+    .shop-card .card-content {
+        outline-offset: 15px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 704px) {
+    .shop-card .card-content {
+        outline-offset: 1px;
+    }
+}
+
 /* Block - _hidden */
 
 ._hidden {
