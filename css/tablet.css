@@ -240,8 +240,7 @@
 
 /*Header - Block*/
 
-.banner-content,
-.content {
+.banner-content, .content {
     display: flex;
     width: 90.9%;
     padding: 0 4.55%;
@@ -347,7 +346,6 @@
     text-align: center;
 }
 
-
 /* Block - trends */
 
 .trends {
@@ -391,16 +389,34 @@
 }
 
 .trends-content {
-    position: relative;
-}
-
-.trends-image {
-    position: relative;
     display: flex;
-    width: 100%;
+    position: relative;
+    height: 250px;
 }
 
-.trends-image::before {
+.trend1 {
+    background-image: url(../images/img/trend1.jpg);
+}
+
+.trend2 {
+    background-image: url(../images/img/trend2.jpg);
+}
+
+.trend3 {
+    background-image: url(../images/img/trend3.jpg);
+}
+
+.trend4 {
+    background-image: url(../images/img/trend4.jpg);
+}
+
+.trend1, .trend2, .trend3, .trend4 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trends-content::before {
     content: "";
     position: absolute;
     top: 0;
@@ -411,16 +427,13 @@
     opacity: 0.6;
 }
 
-.trends-image img {
-    width: inherit;
-    object-fit: cover;
-}
-
 .trends-content-block {
-    position: absolute;
-    bottom: 3.16%;
-    left: 4.22%;
-    right: 4.22%;
+    width: 100%;
+    z-index: 1;
+    margin-top: auto;
+    margin-bottom: 3.16%;
+    margin-left: 4.22%;
+    margin-right: 4.22%;
     background-color: rgba(0, 0, 0, 0);
     border: 3px solid #b59f5b;
 }
@@ -461,7 +474,6 @@
 .trends-content-text:hover {
     color: #b59f5b;
 }
-
 
 /* Block - trends */
 
@@ -887,7 +899,6 @@
     font-family: "Open Sans Bold";
 }
 
-
 /*Block - Shop*/
 
 .shop {
@@ -934,9 +945,8 @@
 }
 
 .shop-card {
-    position: relative;
     width: 49%;
-    margin-bottom: 2%;
+    margin-bottom: 8%;
     height: 440px;
 }
 
@@ -944,23 +954,16 @@
     display: flex;
     justify-content: center;
     object-position: center;
-    object-fit: cover;
-}
-
-.card-image img {
-    object-fit: cover;
-    padding: 0 20px;
 }
 
 .card-content {
-    position: absolute;
-    padding: 0 20px;
-    top: 175px;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 290px;
+    height: 200px;
     background-color: rgba(0, 0, 0, 0);
-    border: 3px solid #b59f5b;
+    outline: 3px solid #b59f5b;
+    outline-offset: 30px;
 }
 
 .card-title {
@@ -970,7 +973,7 @@
     font-weight: 700;
     font-family: "Open Sans Bold";
     text-transform: uppercase;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .card-content-text {
@@ -997,8 +1000,7 @@
     flex-direction: column;
 }
 
-.price-new,
-.price-old {
+.price-new, .price-old {
     display: flex;
 }
 
@@ -1060,7 +1062,6 @@
     text-transform: uppercase;
     border: none;
 }
-
 
 /*Footer-Block*/
 

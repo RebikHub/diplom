@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 /* Block - _hidden */
 
 @font-face {
@@ -26,7 +25,7 @@
         margin-bottom: 0.5%;
     }
     .banner-logo {
-            padding-top: 30vh;
+        padding-top: 30vh;
     }
     .banner-intro {
         padding-top: 10vh;
@@ -244,11 +243,9 @@
     background-color: inherit;
 }
 
-
 /* Block - _hidden */
 
-.banner-content,
-.content {
+.banner-content, .content {
     display: flex;
     width: 91.67%;
     padding: 0 4.165%;
@@ -356,7 +353,6 @@
     text-align: center;
 }
 
-
 /* Block - trends */
 
 .trends {
@@ -399,16 +395,34 @@
 }
 
 .trends-content {
-    position: relative;
-}
-
-.trends-image {
-    position: relative;
     display: flex;
-    width: 100%;
+    position: relative;
+    height: 230px;
 }
 
-.trends-image::before {
+.trend1 {
+    background-image: url(../images/img/trend1.jpg);
+}
+
+.trend2 {
+    background-image: url(../images/img/trend2.jpg);
+}
+
+.trend3 {
+    background-image: url(../images/img/trend3.jpg);
+}
+
+.trend4 {
+    background-image: url(../images/img/trend4.jpg);
+}
+
+.trend1, .trend2, .trend3, .trend4 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trends-content::before {
     content: "";
     position: absolute;
     top: 0;
@@ -419,17 +433,14 @@
     opacity: 0.6;
 }
 
-.trends-image img {
-    width: inherit;
-    object-fit: cover;
-}
-
 .trends-content-block {
-    position: absolute;
+    width: 100%;
+    z-index: 1;
     box-sizing: border-box;
-    bottom: 3.16%;
-    left: 4.22%;
-    right: 4.22%;
+    margin-top: auto;
+    margin-bottom: 3.16%;
+    margin-left: 4.22%;
+    margin-right: 4.22%;
     background-color: rgba(0, 0, 0, 0);
     border: 3px solid #b59f5b;
 }
@@ -474,7 +485,6 @@
 .trends-content-text:hover {
     color: #b59f5b;
 }
-
 
 /* Block - trends */
 
@@ -904,7 +914,6 @@
     font-family: "Open Sans Bold";
 }
 
-
 /*Block - Shop*/
 
 .shop {
@@ -950,36 +959,22 @@
 }
 
 .shop-card {
-    position: relative;
     width: 100%;
-    margin-bottom: 2%;
-}
-
-.shop-card::after {
-    content: "";
-    position: absolute;
-    top: 250px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0);
-    border: 3px solid #b59f5b;
+    margin-bottom: 13.9%;
 }
 
 .card-image {
     display: flex;
     justify-content: center;
     object-position: center;
-    object-fit: cover;
-}
-
-.card-image img {
-    object-fit: cover;
-    padding: 0 20px;
 }
 
 .card-content {
-    padding: 0 20px 20px 20px;
+    outline: 3px solid #b59f5b;
+    outline-offset: 25px;
+    width: 79.17%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card-title {
@@ -1016,8 +1011,7 @@
     flex-direction: column;
 }
 
-.price-new,
-.price-old {
+.price-new, .price-old {
     display: flex;
 }
 
@@ -1079,7 +1073,6 @@
     text-transform: uppercase;
     border: none;
 }
-
 
 /*Footer-Block*/
 
