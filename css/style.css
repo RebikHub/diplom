@@ -1527,6 +1527,7 @@
 }
 
 .card-content {
+    height: -webkit-fill-available;
     margin-right: auto;
     margin-left: auto;
     background-color: rgba(0, 0, 0, 0);
